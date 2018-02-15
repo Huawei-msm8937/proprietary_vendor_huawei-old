@@ -1,5 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -49,6 +49,13 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/wileyfox/marmite/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/wileyfox/marmite/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/wileyfox/marmite/proprietary/etc/acdbdata/AW87319/AW87319_Bluetooth_cal.acdb:system/etc/acdbdata/AW87319/AW87319_Bluetooth_cal.acdb \
+    vendor/wileyfox/marmite/proprietary/etc/acdbdata/AW87319/AW87319_General_cal.acdb:system/etc/acdbdata/AW87319/AW87319_General_cal.acdb \
+    vendor/wileyfox/marmite/proprietary/etc/acdbdata/AW87319/AW87319_Global_cal.acdb:system/etc/acdbdata/AW87319/AW87319_Global_cal.acdb \
+    vendor/wileyfox/marmite/proprietary/etc/acdbdata/AW87319/AW87319_Handset_cal.acdb:system/etc/acdbdata/AW87319/AW87319_Handset_cal.acdb \
+    vendor/wileyfox/marmite/proprietary/etc/acdbdata/AW87319/AW87319_Hdmi_cal.acdb:system/etc/acdbdata/AW87319/AW87319_Hdmi_cal.acdb \
+    vendor/wileyfox/marmite/proprietary/etc/acdbdata/AW87319/AW87319_Headset_cal.acdb:system/etc/acdbdata/AW87319/AW87319_Headset_cal.acdb \
+    vendor/wileyfox/marmite/proprietary/etc/acdbdata/AW87319/AW87319_Speaker_cal.acdb:system/etc/acdbdata/AW87319/AW87319_Speaker_cal.acdb \
     vendor/wileyfox/marmite/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/wileyfox/marmite/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/wileyfox/marmite/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -849,6 +856,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
