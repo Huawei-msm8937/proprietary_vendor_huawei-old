@@ -18,7 +18,6 @@
 PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/wileyfox/marmite/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/wileyfox/marmite/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/wileyfox/marmite/proprietary/bin/gx_fpd:system/bin/gx_fpd \
     vendor/wileyfox/marmite/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/wileyfox/marmite/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
@@ -37,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/wileyfox/marmite/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/wileyfox/marmite/proprietary/bin/port-bridge:system/bin/port-bridge \
-    vendor/wileyfox/marmite/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/wileyfox/marmite/proprietary/bin/radish:system/bin/radish \
     vendor/wileyfox/marmite/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/wileyfox/marmite/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
@@ -65,8 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/wileyfox/marmite/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/wileyfox/marmite/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/wileyfox/marmite/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/wileyfox/marmite/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/wileyfox/marmite/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
     vendor/wileyfox/marmite/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
     vendor/wileyfox/marmite/proprietary/etc/firmware/DE.o.msm8937:system/etc/firmware/DE.o.msm8937 \
@@ -112,13 +108,11 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/wileyfox/marmite/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/wileyfox/marmite/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/wileyfox/marmite/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/wileyfox/marmite/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/wileyfox/marmite/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/wileyfox/marmite/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/wileyfox/marmite/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/wileyfox/marmite/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/wileyfox/marmite/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/wileyfox/marmite/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/wileyfox/marmite/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/wileyfox/marmite/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
@@ -130,14 +124,11 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/wileyfox/marmite/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/wileyfox/marmite/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/wileyfox/marmite/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/wileyfox/marmite/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/wileyfox/marmite/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/wileyfox/marmite/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/wileyfox/marmite/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/wileyfox/marmite/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/wileyfox/marmite/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
-    vendor/wileyfox/marmite/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/wileyfox/marmite/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/wileyfox/marmite/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/wileyfox/marmite/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
@@ -157,9 +148,10 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/wileyfox/marmite/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/wileyfox/marmite/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
+    vendor/wileyfox/marmite/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
     vendor/wileyfox/marmite/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/wileyfox/marmite/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-    vendor/wileyfox/marmite/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
+    vendor/wileyfox/marmite/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/wileyfox/marmite/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/wileyfox/marmite/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/wileyfox/marmite/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
@@ -187,6 +179,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/firmware/libpn551_fw.so:system/vendor/firmware/libpn551_fw.so \
     vendor/wileyfox/marmite/proprietary/vendor/firmware/libpn553_fw.so:system/vendor/firmware/libpn553_fw.so \
     vendor/wileyfox/marmite/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:system/vendor/lib/com.quicinc.cne.api@1.0.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:system/vendor/lib/com.quicinc.cne.constants@1.0.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/com.quicinc.cne.constants@2.0.so:system/vendor/lib/com.quicinc.cne.constants@2.0.so \
@@ -231,7 +224,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
@@ -239,9 +231,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libDRPlugin.so:system/vendor/lib/libDRPlugin.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/libGPTEE.so:system/vendor/lib/libGPTEE.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/libGPreqcancel_svc.so:system/vendor/lib/libGPreqcancel_svc.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libOmxAlacDec.so:system/vendor/lib/libOmxAlacDec.so \
@@ -258,8 +247,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
@@ -443,17 +430,10 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libdpmqmihal.so:system/vendor/lib/libdpmqmihal.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libdrplugin_client.so:system/vendor/lib/libdrplugin_client.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libevent_observer.so:system/vendor/lib/libevent_observer.so \
@@ -604,7 +584,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
@@ -624,7 +603,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/librilqmiservices.so:system/vendor/lib/librilqmiservices.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
@@ -635,9 +613,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
@@ -645,13 +620,11 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
@@ -675,6 +648,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so:system/vendor/lib64/com.quicinc.cne.api@1.0.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/com.quicinc.cne.constants@1.0.so:system/vendor/lib64/com.quicinc.cne.constants@1.0.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/com.quicinc.cne.constants@2.0.so:system/vendor/lib64/com.quicinc.cne.constants@2.0.so \
@@ -725,7 +699,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib64/libGPTEE.so:system/vendor/lib64/libGPTEE.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
@@ -775,11 +748,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib64/libdpmqmihal.so:system/vendor/lib64/libdpmqmihal.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libdrplugin_client.so:system/vendor/lib64/libdrplugin_client.so \
@@ -861,7 +830,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib64/libsecureuisvc_jni.so:system/vendor/lib64/libsecureuisvc_jni.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
@@ -872,7 +840,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
@@ -912,7 +879,6 @@ PRODUCT_PACKAGES += \
     CNEService \
     QtiTetherService \
     com.qualcomm.location \
-    dpmserviceapp \
     qcrilmsgtunnel \
     colorservice \
     ims \
