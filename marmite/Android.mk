@@ -20,18 +20,6 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),marmite)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libMpeg4SwEncoder
-LOCAL_MODULE_OWNER := wileyfox
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libMpeg4SwEncoder.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libMpeg4SwEncoder.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libdiag
 LOCAL_MODULE_OWNER := wileyfox
 LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libdiag.so
@@ -48,6 +36,18 @@ LOCAL_MODULE := libdsutils
 LOCAL_MODULE_OWNER := wileyfox
 LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libdsutils.so
 LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libdsutils.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libgpustats
+LOCAL_MODULE_OWNER := wileyfox
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libgpustats.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libgpustats.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
