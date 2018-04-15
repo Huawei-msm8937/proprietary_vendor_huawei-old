@@ -25,20 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/wileyfox/marmite/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/wileyfox/marmite/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
-    vendor/wileyfox/marmite/proprietary/etc/acdbdata/AW87319/AW87319_Bluetooth_cal.acdb:system/etc/acdbdata/AW87319/AW87319_Bluetooth_cal.acdb \
-    vendor/wileyfox/marmite/proprietary/etc/acdbdata/AW87319/AW87319_General_cal.acdb:system/etc/acdbdata/AW87319/AW87319_General_cal.acdb \
-    vendor/wileyfox/marmite/proprietary/etc/acdbdata/AW87319/AW87319_Global_cal.acdb:system/etc/acdbdata/AW87319/AW87319_Global_cal.acdb \
-    vendor/wileyfox/marmite/proprietary/etc/acdbdata/AW87319/AW87319_Handset_cal.acdb:system/etc/acdbdata/AW87319/AW87319_Handset_cal.acdb \
-    vendor/wileyfox/marmite/proprietary/etc/acdbdata/AW87319/AW87319_Hdmi_cal.acdb:system/etc/acdbdata/AW87319/AW87319_Hdmi_cal.acdb \
-    vendor/wileyfox/marmite/proprietary/etc/acdbdata/AW87319/AW87319_Headset_cal.acdb:system/etc/acdbdata/AW87319/AW87319_Headset_cal.acdb \
-    vendor/wileyfox/marmite/proprietary/etc/acdbdata/AW87319/AW87319_Speaker_cal.acdb:system/etc/acdbdata/AW87319/AW87319_Speaker_cal.acdb \
-    vendor/wileyfox/marmite/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/wileyfox/marmite/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/wileyfox/marmite/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/wileyfox/marmite/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    vendor/wileyfox/marmite/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/wileyfox/marmite/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/wileyfox/marmite/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/wileyfox/marmite/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/wileyfox/marmite/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/wileyfox/marmite/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
@@ -178,6 +164,20 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/wileyfox/marmite/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/wileyfox/marmite/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
+    vendor/wileyfox/marmite/proprietary/vendor/etc/acdbdata/AW87319/AW87319_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/AW87319/AW87319_Bluetooth_cal.acdb \
+    vendor/wileyfox/marmite/proprietary/vendor/etc/acdbdata/AW87319/AW87319_General_cal.acdb:system/vendor/etc/acdbdata/AW87319/AW87319_General_cal.acdb \
+    vendor/wileyfox/marmite/proprietary/vendor/etc/acdbdata/AW87319/AW87319_Global_cal.acdb:system/vendor/etc/acdbdata/AW87319/AW87319_Global_cal.acdb \
+    vendor/wileyfox/marmite/proprietary/vendor/etc/acdbdata/AW87319/AW87319_Handset_cal.acdb:system/vendor/etc/acdbdata/AW87319/AW87319_Handset_cal.acdb \
+    vendor/wileyfox/marmite/proprietary/vendor/etc/acdbdata/AW87319/AW87319_Hdmi_cal.acdb:system/vendor/etc/acdbdata/AW87319/AW87319_Hdmi_cal.acdb \
+    vendor/wileyfox/marmite/proprietary/vendor/etc/acdbdata/AW87319/AW87319_Headset_cal.acdb:system/vendor/etc/acdbdata/AW87319/AW87319_Headset_cal.acdb \
+    vendor/wileyfox/marmite/proprietary/vendor/etc/acdbdata/AW87319/AW87319_Speaker_cal.acdb:system/vendor/etc/acdbdata/AW87319/AW87319_Speaker_cal.acdb \
+    vendor/wileyfox/marmite/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/wileyfox/marmite/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/wileyfox/marmite/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/wileyfox/marmite/proprietary/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/wileyfox/marmite/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/wileyfox/marmite/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/wileyfox/marmite/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/wileyfox/marmite/proprietary/vendor/etc/cacert_location.pem:system/vendor/etc/cacert_location.pem \
     vendor/wileyfox/marmite/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/wileyfox/marmite/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml \
