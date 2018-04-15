@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/wileyfox/marmite/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/wileyfox/marmite/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
-    vendor/wileyfox/marmite/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/wileyfox/marmite/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/wileyfox/marmite/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/wileyfox/marmite/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/wileyfox/marmite/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
