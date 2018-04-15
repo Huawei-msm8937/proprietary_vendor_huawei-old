@@ -92,6 +92,8 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/wileyfox/marmite/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
     vendor/wileyfox/marmite/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
+    vendor/wileyfox/marmite/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
+    vendor/wileyfox/marmite/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/wileyfox/marmite/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/wileyfox/marmite/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/wileyfox/marmite/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
@@ -115,6 +117,8 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/wileyfox/marmite/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/wileyfox/marmite/proprietary/lib64/libalgoandroid.so:system/lib64/libalgoandroid.so \
+    vendor/wileyfox/marmite/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
+    vendor/wileyfox/marmite/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/wileyfox/marmite/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/wileyfox/marmite/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
     vendor/wileyfox/marmite/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
