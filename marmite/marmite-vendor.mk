@@ -870,7 +870,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     ims \
     CNEService \
-    QtiTetherService \
     com.qualcomm.location \
     qcrilmsgtunnel \
     TimeService \
