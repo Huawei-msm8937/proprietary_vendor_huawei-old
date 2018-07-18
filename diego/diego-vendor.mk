@@ -43,7 +43,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/diego/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/huawei/diego/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/huawei/diego/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/huawei/diego/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
+    vendor/huawei/diego/proprietary/bin/wifichrdump:system/bin/wifichrdump \
+    vendor/huawei/diego/proprietary/bin/WifiLogger_app:system/bin/WifiLogger_app \
     vendor/huawei/diego/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/huawei/diego/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/huawei/diego/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
